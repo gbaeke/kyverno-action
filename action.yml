@@ -9,6 +9,6 @@ inputs:
     required: true
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://gbaeke/kyverno-action:v1.0.0'
   args:
     - ${{ inputs.command }}
