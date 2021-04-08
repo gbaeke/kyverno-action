@@ -1,4 +1,4 @@
-name: 'kyverno-cli'
+name: 'kyverno-action'
 description: 'Runs kyverno cli'
 branding:
   icon: 'command'
